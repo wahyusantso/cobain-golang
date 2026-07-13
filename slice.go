@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	colors := [...]string{"Blue", "Yellow", "Black", "Red", "Green", "Purple"}
+	colors := [...]string{"Blue", "Yellow", "Black", "Red", "Green", "Purple"} // deklarasi panjang dinamis
 	//  [pointer, Kapasitas]
 	slice1 := colors[2:6]
 	slice2 := colors[0:]
